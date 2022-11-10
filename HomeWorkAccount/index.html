@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <div class="main-form">
+            <h1 class="main-form-title" id="main-form-title">
+                Get your free account
+            </h1>
+            <div class="main-form-info">
+                Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+            </div>
+            <form class="account" action="#">
+                <div class="account-text-field account-field-remove">
+                    <label for="fullName">
+                        Full Name
+                    </label>
+                    <input type="text" value="Antony Swarowski" name="fullName" id="fullName">
+                </div>
+                <div class="account-text-field">
+                    <label for="userName">
+                        Your username
+                    </label>
+                    <input type="text" name="username" id="userName">
+                </div>
+                <div class="account-text-field account-field-remove">
+                    <label for="email">
+                        E-mail
+                    </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="account-text-field">
+                    <label for="password">
+                        Password
+                    </label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="account-text-field account-field-remove">
+                    <label for="repeatPassword">
+                        Repeat Password
+                    </label>
+                    <input type="password" name="repeatPassword" id="repeatPassword">
+                </div>
+                <div class="input-checkbox account-field-remove">
+
+                    <input type="checkbox" id="agree">
+                    <label for="agree">
+                        Agree to our Terms of Service and Privacy Statement
+                    </label>
+
+                </div>
+                <div class="btn-box">
+                    <button class="btn" type="button" id="button-singUp">Sign Up</button>
+                </div>
+                <div class="link-account account-field-remove">
+                    <a href="#" id="link-account">Already have an account?</a>
+                </div>
+            </form>
+        </div>
+        <div class="main-image">
+            <img src="images/image.png" alt="Rocket">
+        </div>
+    </div>
+    <div class="popup-container close" id="popup">
+        <div class="popup">
+            <div class="popup-info">
+                На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию
+            </div>
+            <button class="btn" type="button" id="button-popup">ОК</button>
+        </div>
+    </div>
+</main>
+</body>
+</html>

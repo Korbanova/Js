@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/nunitoBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%);
+    font-family: Nunito, sans-serif;
+}
+
+.header .container {
+    padding: 27px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 262px;
+    margin: 0 auto;
+
+}
+
+.logo img {
+    width: 257px;
+}
+
+.main {
+    position: relative;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 85px 46px 191px 63px;
+}
+
+.main-form-title {
+    margin-bottom: 26px;
+    font-size: 36px;
+    color: #000000;
+}
+
+.main-form-info {
+    margin-bottom: 72px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+}
+
+.main-form {
+    max-width: 452px;
+}
+
+.account .account-text-field label {
+    font-size: 16px;
+    color: #C6C6C4;
+    margin-bottom: 7px;
+}
+
+.account-text-field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border: 1px #C6C6C4;
+    border-style: none none solid;
+}
+
+.account-text-field input {
+    border: none;
+    font-family: Nunito, sans-serif;
+    background-color: #FFFFFB;
+    font-size: 20px;
+    outline: none;
+}
+
+.input-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 40px;
+    font-size: 16px;
+    color: #636363;
+}
+
+
+.input-checkbox input {
+    margin-right: 10px;
+}
+
+.btn-box {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.btn-box .btn {
+    width: 210px;
+}
+
+.btn {
+    padding: 21px 21px 25px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.link-account {
+    text-align: center;
+}
+
+.link-account a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #636363;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+}
+
+.popup {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFB;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.popup-info {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #636363;
+}
+
+.popup .btn {
+    width: 120px;
+}
+
+.close {
+    display: none;
+}
+
